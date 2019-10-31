@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -2568,14 +2569,68 @@ th {
 
 fonts
 
-*****************************************
-
+*****************************************/
 @font-face {
-    font-family: "neco";
-    src: url("../fonts/GothamRounded-Book.otf");
-}
-
-*****************************************
+  font-family: "AveBlack";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Black.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBlackOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-BlackOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBook";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Book.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBookOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-BookOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveHeavy";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Heavy.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveHeavyOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-HeavyOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveLight";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Light.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveLightOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-LightOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveMedium";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Medium.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveMediumOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-MediumOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Oblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveRoman";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Roman.ttf");
+  /* propojení na umístění souboru */ }
+/*****************************************
 
 colors
 
@@ -2586,4 +2641,10 @@ defaults
 
 *****************************************/
 h1, h2, h3, h4, h5, p, span, a {
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  font-family: AveBook;
+  text-decoration: none;
+  color: #000; }
+
+*:focus {
+  outline: none; }
