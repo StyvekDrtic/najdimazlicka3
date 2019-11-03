@@ -1,0 +1,1000 @@
+#jumbotron {
+  background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+
+  .jumboText {
+    h1 {
+      font-family: AvenirBlack;
+      font-size: 36px;
+      color: #000000;
+      letter-spacing: 0;
+      text-align: center;
+      padding-top: 30px;
+      width: calc(100% - 20px);
+      max-width: 340px;
+      margin: 0 auto;
+
+      @media only screen and (max-width: 360px) {
+        font-size: 32px;
+      }
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirBlack;
+        font-size: 56px;
+        color: #000000;
+        letter-spacing: 0;
+        width: auto;
+        max-width: none;
+        text-align: left;
+        padding: 0;
+      }
+    }
+
+    p {
+      font-family: AvenirMedium;
+      font-size: 17px;
+      color: #727272;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 30px;
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      margin-top: 15px;
+      max-width: 400px;
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirMedium;
+        font-size: 19px;
+        color: #727272;
+        letter-spacing: 0;
+        line-height: 36px;
+        text-align: left;
+        width: auto;
+        max-width: 450px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 30px;
+      }
+    }
+
+    a {
+      background-image: linear-gradient(135deg, #FF8D55 0%, #E9214B 100%);
+      border-radius: 10px;
+      font-family: AvenirHeavy;
+      font-size: 20px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+      width: 250px;
+      padding: 12px 0;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+
+      @media only screen and (min-width: 1000px) {
+        margin: 0;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      display: inline-block;
+      width: 464px;
+      text-align: left;
+      vertical-align: middle;
+      padding-left: 30px;
+    }
+  }
+
+  img {
+    width: calc(100% - 40px);
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    max-width: 430px;
+
+    @media only screen and (min-width: 1000px) {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 500px;
+      margin-left: 80px;
+      position: relative;
+      top: 15px;
+      padding-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    width: calc(100% - 40px);
+    padding-bottom: 40px;
+    padding-top: 35px;
+    text-align: center;
+    max-width: 1400px;
+  }
+}
+
+#statistiky {
+  width: calc(100% - 50px);
+  margin: 0 auto;
+  margin-top: 40px;
+
+  h3 {
+    font-family: AvenirBlack;
+    font-size: 14px;
+    color: #A6A6A6;
+    letter-spacing: 2.5px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 1000px) {
+      margin-bottom: 25px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      p {
+        font-family: AvenirBook;
+        font-size: 18.53px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0;
+
+        span {
+          display: block;
+          font-family: AvenirBlack;
+          font-size: 44.12px;
+          color: #000000;
+          letter-spacing: 0;
+        }
+      }
+
+      @media only screen and (min-width: 1000px) {
+        display: inline-block;
+        margin: 0 35px;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+  }
+}
+
+#jakToFunguje {
+  width: calc(100% - 50px);
+  margin: 0 auto;
+  max-width: 500px;
+
+  .vysveslovaciText {
+    h2 {
+      font-family: AvenirBlack;
+      font-size: 13px;
+      color: #000000;
+      letter-spacing: 2.44px;
+      text-transform: uppercase;
+      padding-left: 66px;
+      position: relative;
+      margin: 0;
+
+      &::before {
+        content: "";
+        width: 50px;
+        height: 4px;
+        background-image: linear-gradient(135deg, #FF8D55 0%, #E9214B 100%);
+        position: absolute;
+        left: 0;
+        top: 6px;
+
+        @media only screen and (min-width: 1000px) {
+          top: 7.5px;
+        }
+      }
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirBlack;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 2.81px;
+      }
+    }
+
+    h3 {
+      font-family: AvenirBlack;
+      font-size: 33px;
+      color: #000000;
+      line-height: 50px;
+      margin-top: 12px;
+      margin-bottom: 15px;
+
+      @media only screen and (max-width: 360px) {
+        font-size: 31px;
+        line-height: 47px;
+      }
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirBlack;
+        font-size: 50px;
+        color: #000000;
+        line-height: 73px;
+        margin-top: 11px;
+        margin-bottom: 30px;
+      }
+    }
+
+    p {
+      font-family: AvenirMedium;
+      font-size: 15px;
+      color: #686868;
+      line-height: 31px;
+      margin: 0;
+      margin-bottom: 30px;
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirMedium;
+        font-size: 17px;
+        color: #686868;
+        line-height: 33px;
+        margin-bottom: 0;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      width: 430px;
+      vertical-align: middle;
+      display: inline-block;
+      text-align: left;
+      margin-left: 100px;
+    }
+  }
+
+  .postup {
+    margin-bottom: 60px;
+
+    img {
+      width: 100%;
+
+      @media only screen and (min-width: 1000px) {
+        width: 500px;
+        vertical-align: middle;
+        display: inline-block;
+        margin: auto;
+        margin-right: 0;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 30px;
+
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 80px;
+      }
+    }
+
+    &:nth-child(2) {
+      .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 100px;
+      }
+    }
+
+    &:nth-child(4) {
+      .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 100px;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    max-width: 1140px;
+  }
+}
+
+.desktopObrazky {
+  display: none;
+
+  @media only screen and (min-width: 1000px) {
+    display: block !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+}
+
+.mobileObrazky {
+  @media only screen and (min-width: 1000px) {
+    display: none !important;
+  }
+}
+
+#citat {
+  background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 45px;
+  max-width: 500px;
+
+  .citatInner {
+    max-width: 746px;
+    margin: 0 auto;
+
+    p {
+      font-family: AvenirMedium;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      line-height: 34px;
+      width: calc(100% - 40px);
+      margin: 0 auto;
+      margin-bottom: 25px;
+
+      @media only screen and (min-width: 1000px) {
+        font-family: AvenirMedium;
+        font-size: 19px;
+        color: #000000;
+        text-align: center;
+        line-height: 36px;
+      }
+    }
+
+    .jmeno {
+      display: block;
+      font-family: AvenirBlack;
+      font-size: 21px;
+      color: #000000;
+      text-align: center;
+    }
+
+    .panicek {
+      display: block;
+      font-family: AvenirMedium;
+      font-size: 16px;
+      color: #A2A2A2;
+      text-align: center;
+      margin-top: 7px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    width: calc(100% - 40px);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-bottom: 80px;
+    max-width: 1400px;
+  }
+}
+
+#reference {
+  margin-bottom: 50px;
+
+  h2 {
+    font-family: AvenirRoman;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: calc(100% - 50px);
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 27px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .referenceInner {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    max-width: 500px;
+
+    ul {
+      padding: 0;
+      text-align: center;
+
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+
+        img {
+          background: #D8D8D8;
+          box-shadow: 0 4px 9px 0 rgba(0,0,0,0.10);
+          border-radius: 13.12px;
+          width: 100%;
+        }
+
+        p {
+          font-family: AvenirMedium;
+          font-size: 16px;
+          color: #686868;
+          text-align: center;
+          line-height: 31.88px;
+          margin-top: 18px;
+          margin-bottom: 10px;
+        }
+
+        span {
+          font-family: AvenirBlack;
+          font-size: 16px;
+          color: #000000;
+          text-align: center;
+          line-height: 28.88px;
+          width: 100%;
+          display: block;
+          margin: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 30px;
+        }
+
+        &:nth-child(1) {
+          @media only screen and (min-width: 1000px) {
+            margin-top: 0;
+          }
+        }
+
+        &:nth-child(2) {
+          @media only screen and (min-width: 1000px) {
+            margin: 35px 85px;
+            margin-top: 0;
+          }
+        }
+
+        &:nth-child(3) {
+          display: none;
+
+          @media only screen and (min-width: 1000px) {
+            display: inline-block;
+            margin-top: 0;
+          }
+        }
+
+        &:nth-child(4) {
+          display: none;
+
+          @media only screen and (min-width: 1000px) {
+            display: inline-block;
+          }
+        }
+
+        &:nth-child(5) {
+          display: none;
+
+          @media only screen and (min-width: 1000px) {
+            display: inline-block;
+            margin: 35px 85px;
+          }
+        }
+
+        @media only screen and (min-width: 1000px) {
+          width: 320px;
+          display: inline-block;
+          margin: 35px 0;
+        }
+      }
+
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 0px;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      max-width: 1140px;
+    }
+  }
+
+  span {
+    font-family: AvenirRoman;
+    font-size: 17px;
+    color: #9F9F9F;
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 20px;
+    }
+  }
+}
+
+#cenoveBalicky {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  position: relative;
+  max-width: 500px;
+
+  h2 {
+    font-family: AvenirRoman;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 27px;
+      margin-bottom: 30px;
+      padding-top: 40px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      width: calc(100% - 30px);
+      background: #FFFFFF;
+      box-shadow: 0 7px 17px 0 rgba(0,0,0,0.10);
+      border-radius: 10px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 40px;
+
+      .balicekLabel {
+        font-family: AvenirBlack;
+        font-size: 12px;
+        color: #898989;
+        letter-spacing: 2.25px;
+        text-align: center;
+        display: block;
+        padding-top: 25px;
+      }
+
+      h3 {
+        font-family: AvenirHeavy;
+        font-size: 36px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 14px;
+      }
+
+      p {
+        font-family: AvenirMedium;
+        font-size: 16px;
+        color: #686868;
+        text-align: center;
+        line-height: 28.88px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-bottom: 16px;
+
+        @media only screen and (min-width: 1000px) {
+          width: calc(100% - 60px);
+        }
+      }
+
+      .cena {
+        display: block;
+        font-family: AvenirBlack;
+        font-size: 41.79px;
+        color: #1A1A1A;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 15px;
+
+        .koruny {
+          font-size: 23.7px;
+          font-family: AvenirBlack;
+          color: #1A1A1A;
+          letter-spacing: 0;
+        }
+      }
+
+      a {
+        background-image: linear-gradient(135deg, #FF8D55 0%, #E9214B 100%);
+        font-family: AvenirHeavy;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        display: block;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 16px 0;
+      }
+
+      &:first-child {
+        @media only screen and (min-width: 1000px) {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 50px;
+
+        @media only screen and (min-width: 1000px) {
+          margin-bottom: 40px;
+          margin-right: 0;
+        }
+      }
+
+      @media only screen and (min-width: 1000px) {
+        width: 350px;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      display: flex;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+  }
+
+  .pozadi {
+    background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: calc(100% - 100px);
+    z-index: -1;
+
+    @media only screen and (min-width: 1000px) {
+      height: calc(100% - 120px);
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    max-width: 1400px;
+    margin-bottom: 40px;
+    width: calc(100% - 40px);
+  }
+}
+
+#faq {
+  width: calc(100% - 50px);
+  margin: 0 auto;
+  max-width: 500px;
+
+  h2 {
+    text-align: center;
+    font-family: AvenirRoman;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 27px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      h3 {
+        font-family: AvenirRoman;
+        font-size: 20px;
+        color: black;
+        letter-spacing: 0;
+        line-height: 33px;
+        padding-left: 45px;
+        position: relative;
+        margin-bottom: 10px;
+        //8A8A8A
+
+        &::before {
+          content: " ";
+          position: absolute;
+          background: url("../img/minus.png") no-repeat;
+          width: 25px;
+          height: 25px;
+          left: 0;
+          top: 4px;
+          background-size: contain;
+        }
+
+        &:hover {
+          color: black;
+          cursor: pointer;
+        }
+
+        @media only screen and (min-width: 1000px) {
+          display: inline-block;
+          text-align: left;
+        }
+      }
+
+      p {
+        font-family: AvenirMedium;
+        font-size: 15px;
+        color: black;
+        letter-spacing: 0;
+        line-height: 32px;
+
+        @media only screen and (min-width: 1000px) {
+          max-width: 700px;
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+      }
+
+      a {
+        font-family: AvenirBlack;
+        text-decoration: underline;
+      }
+
+      @media only screen and (min-width: 1000px) {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+
+    .zavreno {
+      h3 {
+        font-family: AvenirRoman;
+        font-size: 20px;
+        color: #8A8A8A;
+        letter-spacing: 0;
+        line-height: 33px;
+        padding-left: 45px;
+        position: relative;
+        margin-bottom: 10px;
+        //8A8A8A
+
+        &::before {
+          content: " ";
+          position: absolute;
+          background: url("../img/plus.png") no-repeat;
+          width: 25px;
+          height: 25px;
+          left: 0;
+          top: 4px;
+          background-size: contain;
+        }
+      }
+
+      p {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 50px;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    max-width: 1140px;
+  }
+}
+
+#silneStranky {
+  background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  padding-bottom: 50px;
+  max-width: 500px;
+
+  h2 {
+    font-family: AvenirRoman;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 0;
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 27px;
+      padding-top: 30px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 220px;
+      margin: 0 auto;
+      margin-top: 30px;
+
+      p {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18px;
+      }
+
+      img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .stopky {
+        width: 112.5px;
+        padding-bottom: 32.5px;
+        padding-top: 6.25px;
+      }
+
+      .speed {
+        width: 124.8px;
+        padding-bottom: 45px;
+        padding-top: 25.24px;
+      }
+
+      .lidi {
+        width: 138px;
+        padding-top: 25px;
+        padding-bottom: 44px;
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      display: flex;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
+
+  .registrovatButton {
+    background-image: linear-gradient(135deg, #FF8D55 0%, #E9214B 100%);
+    border-radius: 10px;
+    font-family: AvenirHeavy;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    width: 250px;
+    padding: 12px 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    max-width: 1400px;
+    width: calc(100% - 40px);
+    padding-bottom: 40px;
+  }
+}
+
+.kontakt {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  h2 {
+    font-family: AvenirRoman;
+    font-size: 27px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 360px) {
+      font-size: 22px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 27px;
+      margin-bottom: 30px;
+    }
+  }
+
+  a {
+    font-family: AvenirHeavy;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 35px;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      right: 0;
+      top: 13px;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      background: #5BFF68;
+
+      @media only screen and (min-width: 1000px) {
+        top: 24px;
+      }
+    }
+
+    @media only screen and (max-width: 360px) {
+      font-size: 27px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      font-size: 49px;
+    }
+  }
+
+  span {
+    font-family: AvenirMedium;
+    font-size: 16px;
+    color: #ABABAB;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+
+    @media only screen and (max-width: 360px) {
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}

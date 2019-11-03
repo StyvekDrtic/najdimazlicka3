@@ -1,3 +1,165 @@
-header {
+.mobilniMenu {
+  display: none;
+  background: white;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 4px 9px 0 rgba(0,0,0,0.10);
 
+  a {
+    img {
+      position: absolute;
+      width: 40px;
+      top: 17px;
+      left: 25px;
+    }
+  }
+
+  .mobilniMenuZavrit {
+    position: absolute;
+    width: 20px;
+    top: 25.17px;
+    right: 26.5px;
+  }
+
+  nav {
+    ul {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-top: 80px;
+
+      li {
+        list-style: none;
+        margin: 0;
+        margin-bottom: 40px;
+
+        a {
+          font-family: AvenirMedium;
+          font-size: 17px;
+          color: #151515;
+          text-align: center;
+        }
+      }
+
+      .telefon {
+        background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
+        padding: 15px 0;
+        margin-bottom: 0;
+        margin-top: 50px;
+
+        img {
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 15px;
+        }
+
+        a {
+          font-family: AvenirMedium;
+          font-size: 15px;
+          color: #151515;
+          letter-spacing: 1.76px;
+          text-align: center;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+header {
+  position: relative;
+  background: #fff;
+  height: 70px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  .logo {
+    img {
+      position: absolute;
+      width: 40px;
+      top: 17px;
+      left: 25px;
+
+      @media only screen and (min-width: 1000px) {
+        left: 0;
+        top: 25px;
+        width: 45px;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      position: absolute;
+      top: 35px;
+      right: 0;
+      padding: 0;
+      margin: 0;
+      display: none;
+
+      li {
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+
+        a {
+          vertical-align: middle;
+          font-family: AvenirMedium;
+          font-size: 15px;
+          color: #151515;
+          text-align: center;
+        }
+
+        @media only screen and (min-width: 1000px) {
+          margin-left: 50px;
+        }
+
+        &:first-child {
+          @media only screen and (min-width: 1000px) {
+            margin-left: 0;
+          }
+        }
+      }
+
+      .telefon {
+        img {
+          height: 20px;
+          vertical-align: middle;
+        }
+
+        a {
+          font-family: AvenirMedium;
+          font-size: 15px;
+          color: #151515;
+          letter-spacing: 1.76px;
+          text-align: center;
+          margin-left: 20px;
+        }
+      }
+
+      @media only screen and (min-width: 1000px) {
+        display: inline-block;
+      }
+    }
+  }
+
+  .mobilniMenuOtevrit {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 23px;
+
+    @media only screen and (min-width: 1000px) {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    height: 90px;
+    width: calc(100% - 40px);
+  }
 }

@@ -1,3 +1,36 @@
+$(".otazka h3").click(function() {
+  if ($(this).parent().hasClass("zavreno")) {
+    $(this).parent().removeClass("zavreno");
+  }
+
+  else {
+    $(this).parent().addClass("zavreno");
+  }
+});
+
+
+
+$(".mobilniMenuOtevrit").click(function() {
+  $(".mobilniMenu").removeClass("fadeInDown animated").removeClass("fadeOutUp animated").addClass("animated" + ' fadeInDown');
+  $(".mobilniMenu").toggle();
+});
+
+$(".mobilniMenuZavrit").click(function() {
+  $(".mobilniMenu").removeClass("fadeOutUp animated").removeClass("fadeInDown animated").addClass("animated" + ' fadeOutUp');
+
+  setTimeout(function() {
+    $(".mobilniMenu").toggle();
+  }, 1000);
+});
+
+$(".mobilniMenu ul li a").click(function() {
+  $(".mobilniMenu").removeClass("fadeOutUp animated").removeClass("fadeInDown animated").addClass("animated" + ' fadeOutUp');
+
+  setTimeout(function() {
+    $(".mobilniMenu").toggle();
+  }, 1000);
+});
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
