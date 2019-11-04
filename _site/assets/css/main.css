@@ -2863,7 +2863,8 @@ footer {
   @media only screen and (min-width: 1000px) {
     footer {
       max-width: 1400px;
-      width: calc(100% - 40px); } }
+      width: calc(100% - 40px);
+      margin-bottom: 20px; } }
 
 #jumbotron {
   background-image: linear-gradient(154deg, #F9F9F9 0%, #F3F3F3 100%);
@@ -2883,10 +2884,20 @@ footer {
     @media only screen and (max-width: 360px) {
       #jumbotron .jumboText h1 {
         font-size: 32px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #jumbotron .jumboText h1 {
         font-family: AvenirBlack;
-        font-size: 56px;
+        font-size: 40px;
+        color: #000000;
+        letter-spacing: 0;
+        width: auto;
+        max-width: none;
+        text-align: left;
+        padding: 0; } }
+    @media only screen and (min-width: 1230px) {
+      #jumbotron .jumboText h1 {
+        font-family: AvenirBlack;
+        font-size: 50px;
         color: #000000;
         letter-spacing: 0;
         width: auto;
@@ -2904,16 +2915,29 @@ footer {
     margin: 0 auto;
     margin-top: 15px;
     max-width: 400px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #jumbotron .jumboText p {
         font-family: AvenirMedium;
-        font-size: 19px;
+        font-size: 17px;
         color: #727272;
         letter-spacing: 0;
-        line-height: 36px;
+        line-height: 30px;
         text-align: left;
         width: auto;
-        max-width: 450px;
+        max-width: 400px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 1230px) {
+      #jumbotron .jumboText p {
+        font-family: AvenirMedium;
+        font-size: 17px;
+        color: #727272;
+        letter-spacing: 0;
+        line-height: 30px;
+        text-align: left;
+        width: auto;
+        max-width: 400px;
         margin: 0;
         margin-top: 15px;
         margin-bottom: 30px; } }
@@ -2931,13 +2955,29 @@ footer {
     display: block;
     text-align: center;
     margin-top: 30px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #jumbotron .jumboText a {
-        margin: 0; } }
-  @media only screen and (min-width: 1000px) {
+        margin: 0;
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px; } }
+    @media only screen and (min-width: 1230px) {
+      #jumbotron .jumboText a {
+        margin: 0;
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px; } }
+  @media only screen and (min-width: 900px) {
     #jumbotron .jumboText {
       display: inline-block;
-      width: 464px;
+      width: 380px;
+      text-align: left;
+      vertical-align: middle;
+      padding-left: 30px; } }
+  @media only screen and (min-width: 1230px) {
+    #jumbotron .jumboText {
+      display: inline-block;
+      width: 420px;
       text-align: left;
       vertical-align: middle;
       padding-left: 30px; } }
@@ -2948,7 +2988,17 @@ footer {
     margin-top: 40px;
     padding-bottom: 15px;
     max-width: 430px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #jumbotron img {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 340px;
+        margin-left: 30px;
+        position: relative;
+        top: 15px;
+        padding-bottom: 0;
+        margin-top: 0; } }
+    @media only screen and (min-width: 1230px) {
       #jumbotron img {
         display: inline-block;
         vertical-align: middle;
@@ -2958,7 +3008,14 @@ footer {
         top: 15px;
         padding-bottom: 0;
         margin-top: 0; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    #jumbotron {
+      width: calc(100% - 40px);
+      padding-bottom: 40px;
+      padding-top: 35px;
+      text-align: center;
+      max-width: 1400px; } }
+  @media only screen and (min-width: 1230px) {
     #jumbotron {
       width: calc(100% - 40px);
       padding-bottom: 40px;
@@ -2980,7 +3037,10 @@ footer {
     margin: 0;
     margin-bottom: 20px;
     text-transform: uppercase; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #statistiky h3 {
+        margin-bottom: 25px; } }
+    @media only screen and (min-width: 1230px) {
       #statistiky h3 {
         margin-bottom: 25px; } }
   #statistiky ul {
@@ -2994,7 +3054,7 @@ footer {
       margin-bottom: 30px; }
       #statistiky ul li p {
         font-family: AvenirBook;
-        font-size: 18.53px;
+        font-size: 17px;
         color: #000000;
         letter-spacing: 0;
         text-align: center;
@@ -3005,11 +3065,34 @@ footer {
           font-size: 44.12px;
           color: #000000;
           letter-spacing: 0; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        #statistiky ul li:first-child {
+          margin-left: 0; } }
+      @media only screen and (min-width: 1230px) {
+        #statistiky ul li:first-child {
+          margin-left: 0; } }
+      @media only screen and (min-width: 900px) {
+        #statistiky ul li:last-child {
+          margin-right: 0; } }
+      @media only screen and (min-width: 1230px) {
+        #statistiky ul li:last-child {
+          margin-right: 0; } }
+      @media only screen and (min-width: 900px) {
+        #statistiky ul li {
+          display: inline-block;
+          margin: 0 10px; } }
+      @media only screen and (min-width: 920px) {
+        #statistiky ul li {
+          margin: 0 15px; } }
+      @media only screen and (min-width: 1230px) {
         #statistiky ul li {
           display: inline-block;
           margin: 0 35px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #statistiky ul {
+        text-align: center;
+        margin-bottom: 80px; } }
+    @media only screen and (min-width: 1230px) {
       #statistiky ul {
         text-align: center;
         margin-bottom: 80px; } }
@@ -3035,10 +3118,19 @@ footer {
       position: absolute;
       left: 0;
       top: 6px; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         #jakToFunguje .vysveslovaciText h2::before {
           top: 7.5px; } }
-    @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 1230px) {
+        #jakToFunguje .vysveslovaciText h2::before {
+          top: 7.5px; } }
+    @media only screen and (min-width: 900px) {
+      #jakToFunguje .vysveslovaciText h2 {
+        font-family: AvenirBlack;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 2.81px; } }
+    @media only screen and (min-width: 1230px) {
       #jakToFunguje .vysveslovaciText h2 {
         font-family: AvenirBlack;
         font-size: 15px;
@@ -3055,7 +3147,15 @@ footer {
       #jakToFunguje .vysveslovaciText h3 {
         font-size: 31px;
         line-height: 47px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #jakToFunguje .vysveslovaciText h3 {
+        font-family: AvenirBlack;
+        font-size: 50px;
+        color: #000000;
+        line-height: 73px;
+        margin-top: 11px;
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 1230px) {
       #jakToFunguje .vysveslovaciText h3 {
         font-family: AvenirBlack;
         font-size: 50px;
@@ -3070,14 +3170,27 @@ footer {
     line-height: 31px;
     margin: 0;
     margin-bottom: 30px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #jakToFunguje .vysveslovaciText p {
         font-family: AvenirMedium;
-        font-size: 17px;
+        font-size: 16px;
         color: #686868;
         line-height: 33px;
         margin-bottom: 0; } }
-  @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1230px) {
+      #jakToFunguje .vysveslovaciText p {
+        font-family: AvenirMedium;
+        font-size: 16px;
+        color: #686868;
+        line-height: 33px;
+        margin-bottom: 0; } }
+  @media only screen and (min-width: 900px) {
+    #jakToFunguje .vysveslovaciText {
+      width: 430px;
+      vertical-align: middle;
+      display: inline-block;
+      text-align: left; } }
+  @media only screen and (min-width: 1230px) {
     #jakToFunguje .vysveslovaciText {
       width: 430px;
       vertical-align: middle;
@@ -3088,8 +3201,17 @@ footer {
     margin-bottom: 60px; }
     #jakToFunguje .postup img {
       width: 100%; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         #jakToFunguje .postup img {
+          width: calc(100% - 40px - 430px - 50px);
+          max-width: 500px;
+          vertical-align: middle;
+          display: inline-block;
+          margin: auto;
+          margin-right: 0; } }
+      @media only screen and (min-width: 1230px) {
+        #jakToFunguje .postup img {
+          max-width: none;
           width: 500px;
           vertical-align: middle;
           display: inline-block;
@@ -3097,33 +3219,62 @@ footer {
           margin-right: 0; } }
     #jakToFunguje .postup:last-child {
       margin-bottom: 30px; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         #jakToFunguje .postup:last-child {
           margin-bottom: 80px; } }
-    #jakToFunguje .postup:nth-child(2) .vysveslovaciText {
-      margin-left: 0;
-      margin-right: 100px; }
-    #jakToFunguje .postup:nth-child(4) .vysveslovaciText {
-      margin-left: 0;
-      margin-right: 100px; }
-    @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 1230px) {
+        #jakToFunguje .postup:last-child {
+          margin-bottom: 80px; } }
+    @media only screen and (min-width: 900px) {
+      #jakToFunguje .postup:nth-child(2) .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 0; } }
+    @media only screen and (min-width: 1230px) {
+      #jakToFunguje .postup:nth-child(2) .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 100px; } }
+    @media only screen and (min-width: 900px) {
+      #jakToFunguje .postup:nth-child(4) .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 0; } }
+    @media only screen and (min-width: 1230px) {
+      #jakToFunguje .postup:nth-child(4) .vysveslovaciText {
+        margin-left: 0;
+        margin-right: 100px; } }
+    @media only screen and (min-width: 900px) {
       #jakToFunguje .postup {
         display: flex;
         align-items: center;
         margin-bottom: 100px; } }
-  @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1230px) {
+      #jakToFunguje .postup {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px; } }
+  @media only screen and (min-width: 900px) {
+    #jakToFunguje {
+      max-width: 900px; } }
+  @media only screen and (min-width: 1230px) {
     #jakToFunguje {
       max-width: 1140px; } }
 
 .desktopObrazky {
   display: none; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    .desktopObrazky {
+      display: block !important;
+      margin: auto !important;
+      margin-left: 0 !important; } }
+  @media only screen and (min-width: 1230px) {
     .desktopObrazky {
       display: block !important;
       margin: auto !important;
       margin-left: 0 !important; } }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
+  .mobileObrazky {
+    display: none !important; } }
+@media only screen and (min-width: 1230px) {
   .mobileObrazky {
     display: none !important; } }
 
@@ -3148,17 +3299,24 @@ footer {
       width: calc(100% - 40px);
       margin: 0 auto;
       margin-bottom: 25px; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         #citat .citatInner p {
           font-family: AvenirMedium;
-          font-size: 19px;
+          font-size: 17px;
+          color: #000000;
+          text-align: center;
+          line-height: 36px; } }
+      @media only screen and (min-width: 1230px) {
+        #citat .citatInner p {
+          font-family: AvenirMedium;
+          font-size: 17px;
           color: #000000;
           text-align: center;
           line-height: 36px; } }
     #citat .citatInner .jmeno {
       display: block;
       font-family: AvenirBlack;
-      font-size: 21px;
+      font-size: 20px;
       color: #000000;
       text-align: center; }
     #citat .citatInner .panicek {
@@ -3168,7 +3326,14 @@ footer {
       color: #A2A2A2;
       text-align: center;
       margin-top: 7px; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    #citat {
+      width: calc(100% - 40px);
+      padding-top: 55px;
+      padding-bottom: 55px;
+      margin-bottom: 80px;
+      max-width: 1400px; } }
+  @media only screen and (min-width: 1230px) {
     #citat {
       width: calc(100% - 40px);
       padding-top: 55px;
@@ -3187,7 +3352,11 @@ footer {
     margin: 0 auto;
     margin-bottom: 30px;
     width: calc(100% - 50px); }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #reference h2 {
+        font-size: 27px;
+        margin-bottom: 50px; } }
+    @media only screen and (min-width: 1230px) {
       #reference h2 {
         font-size: 27px;
         margin-bottom: 50px; } }
@@ -3227,39 +3396,71 @@ footer {
           margin: 0; }
         #reference .referenceInner ul li:last-child {
           margin-bottom: 30px; }
-        @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
+            #reference .referenceInner ul li:last-child {
+              margin-left: 40px; } }
+          @media only screen and (min-width: 1230px) {
+            #reference .referenceInner ul li:last-child {
+              margin-left: 0; } }
+        @media only screen and (min-width: 900px) {
           #reference .referenceInner ul li:nth-child(1) {
+            margin-top: 0;
+            margin-right: 40px; } }
+        @media only screen and (min-width: 1230px) {
+          #reference .referenceInner ul li:nth-child(1) {
+            margin-top: 0;
+            margin-right: 0; } }
+        @media only screen and (min-width: 900px) {
+          #reference .referenceInner ul li:nth-child(2) {
+            margin-left: 40px;
             margin-top: 0; } }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 1230px) {
           #reference .referenceInner ul li:nth-child(2) {
             margin: 35px 85px;
             margin-top: 0; } }
         #reference .referenceInner ul li:nth-child(3) {
           display: none; }
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
             #reference .referenceInner ul li:nth-child(3) {
               display: inline-block;
-              margin-top: 0; } }
+              margin-top: 0;
+              margin-right: 40px; } }
+          @media only screen and (min-width: 1230px) {
+            #reference .referenceInner ul li:nth-child(3) {
+              display: inline-block;
+              margin-top: 0;
+              margin-right: 0; } }
         #reference .referenceInner ul li:nth-child(4) {
           display: none; }
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 1230px) {
             #reference .referenceInner ul li:nth-child(4) {
               display: inline-block; } }
         #reference .referenceInner ul li:nth-child(5) {
           display: none; }
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 1230px) {
             #reference .referenceInner ul li:nth-child(5) {
               display: inline-block;
               margin: 35px 85px; } }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
           #reference .referenceInner ul li {
             width: 320px;
             display: inline-block;
             margin: 35px 0; } }
-      @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 1230px) {
+          #reference .referenceInner ul li {
+            width: 320px;
+            display: inline-block;
+            margin: 35px 0; } }
+      @media only screen and (min-width: 900px) {
         #reference .referenceInner ul {
           margin-bottom: 0px; } }
-    @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 1230px) {
+        #reference .referenceInner ul {
+          margin-bottom: 0px; } }
+    @media only screen and (min-width: 900px) {
+      #reference .referenceInner {
+        max-width: 900px; } }
+    @media only screen and (min-width: 1230px) {
       #reference .referenceInner {
         max-width: 1140px; } }
   #reference span {
@@ -3269,7 +3470,10 @@ footer {
     letter-spacing: 0;
     text-align: center;
     display: block; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #reference span {
+        font-size: 20px; } }
+    @media only screen and (min-width: 1230px) {
       #reference span {
         font-size: 20px; } }
 
@@ -3287,7 +3491,12 @@ footer {
     padding-top: 25px;
     margin: 0;
     margin-bottom: 25px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #cenoveBalicky h2 {
+        font-size: 27px;
+        margin-bottom: 30px;
+        padding-top: 40px; } }
+    @media only screen and (min-width: 1230px) {
       #cenoveBalicky h2 {
         font-size: 27px;
         margin-bottom: 30px;
@@ -3330,7 +3539,10 @@ footer {
         width: calc(100% - 40px);
         margin: 0 auto;
         margin-bottom: 16px; }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          #cenoveBalicky ul li p {
+            width: calc(100% - 60px); } }
+        @media only screen and (min-width: 1230px) {
           #cenoveBalicky ul li p {
             width: calc(100% - 60px); } }
       #cenoveBalicky ul li .cena {
@@ -3357,19 +3569,41 @@ footer {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 16px 0; }
-      @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          #cenoveBalicky ul li a {
+            font-size: 19px; } }
+        @media only screen and (min-width: 1230px) {
+          #cenoveBalicky ul li a {
+            font-size: 19px; } }
+      @media only screen and (min-width: 900px) {
+        #cenoveBalicky ul li:first-child {
+          margin-left: 0; } }
+      @media only screen and (min-width: 1230px) {
         #cenoveBalicky ul li:first-child {
           margin-left: 0; } }
       #cenoveBalicky ul li:last-child {
         margin-bottom: 50px; }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
           #cenoveBalicky ul li:last-child {
             margin-bottom: 40px;
             margin-right: 0; } }
-      @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 1230px) {
+          #cenoveBalicky ul li:last-child {
+            margin-bottom: 40px;
+            margin-right: 0; } }
+      @media only screen and (min-width: 900px) {
+        #cenoveBalicky ul li {
+          width: calc((100% / 3) - 15px); } }
+      @media only screen and (min-width: 1230px) {
         #cenoveBalicky ul li {
           width: 350px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #cenoveBalicky ul {
+        display: flex;
+        max-width: 1140px;
+        margin: 0 auto;
+        width: calc(100% - 40px); } }
+    @media only screen and (min-width: 1230px) {
       #cenoveBalicky ul {
         display: flex;
         max-width: 1140px;
@@ -3382,10 +3616,18 @@ footer {
     top: 0;
     height: calc(100% - 100px);
     z-index: -1; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #cenoveBalicky .pozadi {
         height: calc(100% - 120px); } }
-  @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1230px) {
+      #cenoveBalicky .pozadi {
+        height: calc(100% - 120px); } }
+  @media only screen and (min-width: 900px) {
+    #cenoveBalicky {
+      max-width: 1400px;
+      margin-bottom: 40px;
+      width: calc(100% - 40px); } }
+  @media only screen and (min-width: 1230px) {
     #cenoveBalicky {
       max-width: 1400px;
       margin-bottom: 40px;
@@ -3402,7 +3644,10 @@ footer {
     color: #000000;
     letter-spacing: 0;
     text-align: center; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #faq h2 {
+        font-size: 27px; } }
+    @media only screen and (min-width: 1230px) {
       #faq h2 {
         font-size: 27px; } }
   #faq ul {
@@ -3435,7 +3680,11 @@ footer {
         #faq ul li h3:hover {
           color: black;
           cursor: pointer; }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          #faq ul li h3 {
+            display: inline-block;
+            text-align: left; } }
+        @media only screen and (min-width: 1230px) {
           #faq ul li h3 {
             display: inline-block;
             text-align: left; } }
@@ -3445,7 +3694,12 @@ footer {
         color: black;
         letter-spacing: 0;
         line-height: 32px; }
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          #faq ul li p {
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 20px; } }
+        @media only screen and (min-width: 1230px) {
           #faq ul li p {
             max-width: 700px;
             margin: 0 auto;
@@ -3453,7 +3707,11 @@ footer {
       #faq ul li a {
         font-family: AvenirBlack;
         text-decoration: underline; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        #faq ul li {
+          text-align: center;
+          margin-bottom: 20px; } }
+      @media only screen and (min-width: 1230px) {
         #faq ul li {
           text-align: center;
           margin-bottom: 20px; } }
@@ -3477,7 +3735,11 @@ footer {
         background-size: contain; }
     #faq ul .zavreno p {
       display: none; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #faq ul {
+        text-align: center;
+        margin-bottom: 70px; } }
+    @media only screen and (min-width: 1230px) {
       #faq ul {
         text-align: center;
         margin-bottom: 70px; } }
@@ -3493,10 +3755,16 @@ footer {
       left: 0;
       width: 100%;
       height: 100%; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       #faq .video {
         margin-bottom: 80px; } }
-  @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1230px) {
+      #faq .video {
+        margin-bottom: 80px; } }
+  @media only screen and (min-width: 900px) {
+    #faq {
+      max-width: 1140px; } }
+  @media only screen and (min-width: 1230px) {
     #faq {
       max-width: 1140px; } }
 
@@ -3515,7 +3783,11 @@ footer {
     text-align: center;
     padding-top: 25px;
     margin-bottom: 0; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #silneStranky h2 {
+        font-size: 27px;
+        padding-top: 30px; } }
+    @media only screen and (min-width: 1230px) {
       #silneStranky h2 {
         font-size: 27px;
         padding-top: 30px; } }
@@ -3533,7 +3805,8 @@ footer {
         text-align: center;
         width: 100%;
         margin: 0 auto;
-        font-size: 18px; }
+        font-size: 18px;
+        line-height: 30px; }
       #silneStranky ul li img {
         text-align: center;
         margin: 0 auto;
@@ -3550,7 +3823,12 @@ footer {
         width: 138px;
         padding-top: 25px;
         padding-bottom: 44px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #silneStranky ul {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto; } }
+    @media only screen and (min-width: 1230px) {
       #silneStranky ul {
         display: flex;
         max-width: 900px;
@@ -3569,7 +3847,22 @@ footer {
     display: block;
     text-align: center;
     margin-top: 50px; }
-  @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      #silneStranky .registrovatButton {
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px; } }
+    @media only screen and (min-width: 1230px) {
+      #silneStranky .registrovatButton {
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px; } }
+  @media only screen and (min-width: 900px) {
+    #silneStranky {
+      max-width: 1400px;
+      width: calc(100% - 40px);
+      padding-bottom: 40px; } }
+  @media only screen and (min-width: 1230px) {
     #silneStranky {
       max-width: 1400px;
       width: calc(100% - 40px);
@@ -3589,7 +3882,11 @@ footer {
     @media only screen and (max-width: 360px) {
       .kontakt h2 {
         font-size: 22px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      .kontakt h2 {
+        font-size: 27px;
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 1230px) {
       .kontakt h2 {
         font-size: 27px;
         margin-bottom: 30px; } }
@@ -3612,13 +3909,19 @@ footer {
       height: 15px;
       border-radius: 100%;
       background: #5BFF68; }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        .kontakt a::after {
+          top: 24px; } }
+      @media only screen and (min-width: 1230px) {
         .kontakt a::after {
           top: 24px; } }
     @media only screen and (max-width: 360px) {
       .kontakt a {
         font-size: 27px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      .kontakt a {
+        font-size: 49px; } }
+    @media only screen and (min-width: 1230px) {
       .kontakt a {
         font-size: 49px; } }
   .kontakt span {
@@ -3631,7 +3934,11 @@ footer {
     @media only screen and (max-width: 360px) {
       .kontakt span {
         font-size: 15px; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    .kontakt {
+      margin-top: 80px;
+      margin-bottom: 80px; } }
+  @media only screen and (min-width: 1230px) {
     .kontakt {
       margin-top: 80px;
       margin-bottom: 80px; } }

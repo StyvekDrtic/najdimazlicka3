@@ -20,9 +20,20 @@
         font-size: 32px;
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         font-family: AvenirBlack;
-        font-size: 56px;
+        font-size: 40px;
+        color: #000000;
+        letter-spacing: 0;
+        width: auto;
+        max-width: none;
+        text-align: left;
+        padding: 0;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        font-family: AvenirBlack;
+        font-size: 50px;
         color: #000000;
         letter-spacing: 0;
         width: auto;
@@ -44,15 +55,29 @@
       margin-top: 15px;
       max-width: 400px;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         font-family: AvenirMedium;
-        font-size: 19px;
+        font-size: 17px;
         color: #727272;
         letter-spacing: 0;
-        line-height: 36px;
+        line-height: 30px;
         text-align: left;
         width: auto;
-        max-width: 450px;
+        max-width: 400px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 30px;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        font-family: AvenirMedium;
+        font-size: 17px;
+        color: #727272;
+        letter-spacing: 0;
+        line-height: 30px;
+        text-align: left;
+        width: auto;
+        max-width: 400px;
         margin: 0;
         margin-top: 15px;
         margin-bottom: 30px;
@@ -74,14 +99,32 @@
       text-align: center;
       margin-top: 30px;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         margin: 0;
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        margin: 0;
+        font-size: 17px;
+        padding: 12px 0;
+        width: 220px;
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
       display: inline-block;
-      width: 464px;
+      width: 380px;
+      text-align: left;
+      vertical-align: middle;
+      padding-left: 30px;
+    }
+
+    @media only screen and (min-width: 1230px) {
+      display: inline-block;
+      width: 420px;
       text-align: left;
       vertical-align: middle;
       padding-left: 30px;
@@ -96,7 +139,18 @@
     padding-bottom: 15px;
     max-width: 430px;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 340px;
+      margin-left: 30px;
+      position: relative;
+      top: 15px;
+      padding-bottom: 0;
+      margin-top: 0;
+    }
+
+    @media only screen and (min-width: 1230px) {
       display: inline-block;
       vertical-align: middle;
       max-width: 500px;
@@ -108,7 +162,15 @@
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    width: calc(100% - 40px);
+    padding-bottom: 40px;
+    padding-top: 35px;
+    text-align: center;
+    max-width: 1400px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     width: calc(100% - 40px);
     padding-bottom: 40px;
     padding-top: 35px;
@@ -133,7 +195,11 @@
     margin-bottom: 20px;
     text-transform: uppercase;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      margin-bottom: 25px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       margin-bottom: 25px;
     }
   }
@@ -151,7 +217,7 @@
 
       p {
         font-family: AvenirBook;
-        font-size: 18.53px;
+        font-size: 17px;
         color: #000000;
         letter-spacing: 0;
         text-align: center;
@@ -166,13 +232,47 @@
         }
       }
 
-      @media only screen and (min-width: 1000px) {
+      &:first-child {
+        @media only screen and (min-width: 900px) {
+          margin-left: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        @media only screen and (min-width: 900px) {
+          margin-right: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
+          margin-right: 0;
+        }
+      }
+
+      @media only screen and (min-width: 900px) {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      @media only screen and (min-width: 920px) {
+        margin: 0 15px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         display: inline-block;
         margin: 0 35px;
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       text-align: center;
       margin-bottom: 80px;
     }
@@ -204,12 +304,23 @@
         left: 0;
         top: 6px;
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          top: 7.5px;
+        }
+
+        @media only screen and (min-width: 1230px) {
           top: 7.5px;
         }
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        font-family: AvenirBlack;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 2.81px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         font-family: AvenirBlack;
         font-size: 15px;
         color: #000000;
@@ -230,7 +341,16 @@
         line-height: 47px;
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        font-family: AvenirBlack;
+        font-size: 50px;
+        color: #000000;
+        line-height: 73px;
+        margin-top: 11px;
+        margin-bottom: 30px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         font-family: AvenirBlack;
         font-size: 50px;
         color: #000000;
@@ -248,16 +368,31 @@
       margin: 0;
       margin-bottom: 30px;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         font-family: AvenirMedium;
-        font-size: 17px;
+        font-size: 16px;
+        color: #686868;
+        line-height: 33px;
+        margin-bottom: 0;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        font-family: AvenirMedium;
+        font-size: 16px;
         color: #686868;
         line-height: 33px;
         margin-bottom: 0;
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      width: 430px;
+      vertical-align: middle;
+      display: inline-block;
+      text-align: left;
+    }
+
+    @media only screen and (min-width: 1230px) {
       width: 430px;
       vertical-align: middle;
       display: inline-block;
@@ -272,7 +407,17 @@
     img {
       width: 100%;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        width: calc(100% - 40px - 430px - 50px);
+        max-width: 500px;
+        vertical-align: middle;
+        display: inline-block;
+        margin: auto;
+        margin-right: 0;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        max-width: none;
         width: 500px;
         vertical-align: middle;
         display: inline-block;
@@ -284,33 +429,61 @@
     &:last-child {
       margin-bottom: 30px;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        margin-bottom: 80px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         margin-bottom: 80px;
       }
     }
 
     &:nth-child(2) {
       .vysveslovaciText {
-        margin-left: 0;
-        margin-right: 100px;
+        @media only screen and (min-width: 900px) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
+          margin-left: 0;
+          margin-right: 100px;
+        }
       }
     }
 
     &:nth-child(4) {
       .vysveslovaciText {
-        margin-left: 0;
-        margin-right: 100px;
+        @media only screen and (min-width: 900px) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
+          margin-left: 0;
+          margin-right: 100px;
+        }
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       display: flex;
       align-items: center;
       margin-bottom: 100px;
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    max-width: 900px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     max-width: 1140px;
   }
 }
@@ -318,7 +491,13 @@
 .desktopObrazky {
   display: none;
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    display: block !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+
+  @media only screen and (min-width: 1230px) {
     display: block !important;
     margin: auto !important;
     margin-left: 0 !important;
@@ -326,7 +505,11 @@
 }
 
 .mobileObrazky {
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    display: none !important;
+  }
+
+  @media only screen and (min-width: 1230px) {
     display: none !important;
   }
 }
@@ -355,9 +538,17 @@
       margin: 0 auto;
       margin-bottom: 25px;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
         font-family: AvenirMedium;
-        font-size: 19px;
+        font-size: 17px;
+        color: #000000;
+        text-align: center;
+        line-height: 36px;
+      }
+
+      @media only screen and (min-width: 1230px) {
+        font-family: AvenirMedium;
+        font-size: 17px;
         color: #000000;
         text-align: center;
         line-height: 36px;
@@ -367,7 +558,7 @@
     .jmeno {
       display: block;
       font-family: AvenirBlack;
-      font-size: 21px;
+      font-size: 20px;
       color: #000000;
       text-align: center;
     }
@@ -382,7 +573,15 @@
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    width: calc(100% - 40px);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-bottom: 80px;
+    max-width: 1400px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     width: calc(100% - 40px);
     padding-top: 55px;
     padding-bottom: 55px;
@@ -404,7 +603,12 @@
     margin-bottom: 30px;
     width: calc(100% - 50px);
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 27px;
+      margin-bottom: 50px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 27px;
       margin-bottom: 50px;
     }
@@ -455,16 +659,35 @@
 
         &:last-child {
           margin-bottom: 30px;
+
+          @media only screen and (min-width: 900px) {
+            margin-left: 40px;
+          }
+
+          @media only screen and (min-width: 1230px) {
+            margin-left: 0;
+          }
         }
 
         &:nth-child(1) {
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
             margin-top: 0;
+            margin-right: 40px;
+          }
+
+          @media only screen and (min-width: 1230px) {
+            margin-top: 0;
+            margin-right: 0;
           }
         }
 
         &:nth-child(2) {
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
+            margin-left: 40px;
+            margin-top: 0;
+          }
+
+          @media only screen and (min-width: 1230px) {
             margin: 35px 85px;
             margin-top: 0;
           }
@@ -473,16 +696,27 @@
         &:nth-child(3) {
           display: none;
 
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
             display: inline-block;
             margin-top: 0;
+            margin-right: 40px;
+          }
+
+          @media only screen and (min-width: 1230px) {
+            display: inline-block;
+            margin-top: 0;
+            margin-right: 0;
           }
         }
 
         &:nth-child(4) {
           display: none;
 
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
+
+          }
+
+          @media only screen and (min-width: 1230px) {
             display: inline-block;
           }
         }
@@ -490,25 +724,43 @@
         &:nth-child(5) {
           display: none;
 
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 900px) {
+
+          }
+
+          @media only screen and (min-width: 1230px) {
             display: inline-block;
             margin: 35px 85px;
           }
         }
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          width: 320px;
+          display: inline-block;
+          margin: 35px 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
           width: 320px;
           display: inline-block;
           margin: 35px 0;
         }
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        margin-bottom: 0px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         margin-bottom: 0px;
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      max-width: 900px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       max-width: 1140px;
     }
   }
@@ -521,7 +773,11 @@
     text-align: center;
     display: block;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 20px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 20px;
     }
   }
@@ -543,7 +799,13 @@
     margin: 0;
     margin-bottom: 25px;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 27px;
+      margin-bottom: 30px;
+      padding-top: 40px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 27px;
       margin-bottom: 30px;
       padding-top: 40px;
@@ -595,7 +857,11 @@
         margin: 0 auto;
         margin-bottom: 16px;
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          width: calc(100% - 60px);
+        }
+
+        @media only screen and (min-width: 1230px) {
           width: calc(100% - 60px);
         }
       }
@@ -628,10 +894,22 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 16px 0;
+
+        @media only screen and (min-width: 900px) {
+          font-size: 19px;
+        }
+
+        @media only screen and (min-width: 1230px) {
+          font-size: 19px;
+        }
       }
 
       &:first-child {
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          margin-left: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
           margin-left: 0;
         }
       }
@@ -639,18 +917,34 @@
       &:last-child {
         margin-bottom: 50px;
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          margin-bottom: 40px;
+          margin-right: 0;
+        }
+
+        @media only screen and (min-width: 1230px) {
           margin-bottom: 40px;
           margin-right: 0;
         }
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        width: calc((100% / 3) - 15px);
+      }
+
+      @media only screen and (min-width: 1230px) {
         width: 350px;
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      display: flex;
+      max-width: 1140px;
+      margin: 0 auto;
+      width: calc(100% - 40px);
+    }
+
+    @media only screen and (min-width: 1230px) {
       display: flex;
       max-width: 1140px;
       margin: 0 auto;
@@ -666,12 +960,22 @@
     height: calc(100% - 100px);
     z-index: -1;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      height: calc(100% - 120px);
+    }
+
+    @media only screen and (min-width: 1230px) {
       height: calc(100% - 120px);
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    max-width: 1400px;
+    margin-bottom: 40px;
+    width: calc(100% - 40px);
+  }
+
+  @media only screen and (min-width: 1230px) {
     max-width: 1400px;
     margin-bottom: 40px;
     width: calc(100% - 40px);
@@ -691,7 +995,11 @@
     letter-spacing: 0;
     text-align: center;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 27px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 27px;
     }
   }
@@ -734,7 +1042,12 @@
           cursor: pointer;
         }
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          display: inline-block;
+          text-align: left;
+        }
+
+        @media only screen and (min-width: 1230px) {
           display: inline-block;
           text-align: left;
         }
@@ -747,7 +1060,13 @@
         letter-spacing: 0;
         line-height: 32px;
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
+          max-width: 700px;
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+
+        @media only screen and (min-width: 1230px) {
           max-width: 700px;
           margin: 0 auto;
           margin-top: 20px;
@@ -759,7 +1078,12 @@
         text-decoration: underline;
       }
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         text-align: center;
         margin-bottom: 20px;
       }
@@ -794,7 +1118,12 @@
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       text-align: center;
       margin-bottom: 70px;
     }
@@ -815,12 +1144,20 @@
       height: 100%;
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      margin-bottom: 80px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       margin-bottom: 80px;
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    max-width: 1140px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     max-width: 1140px;
   }
 }
@@ -842,7 +1179,12 @@
     padding-top: 25px;
     margin-bottom: 0;
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 27px;
+      padding-top: 30px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 27px;
       padding-top: 30px;
     }
@@ -865,6 +1207,7 @@
         width: 100%;
         margin: 0 auto;
         font-size: 18px;
+        line-height: 30px;
       }
 
       img {
@@ -892,7 +1235,13 @@
       }
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      display: flex;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 1230px) {
       display: flex;
       max-width: 900px;
       margin: 0 auto;
@@ -913,9 +1262,27 @@
     display: block;
     text-align: center;
     margin-top: 50px;
+
+    @media only screen and (min-width: 900px) {
+      font-size: 17px;
+      padding: 12px 0;
+      width: 220px;
+    }
+
+    @media only screen and (min-width: 1230px) {
+      font-size: 17px;
+      padding: 12px 0;
+      width: 220px;
+    }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    max-width: 1400px;
+    width: calc(100% - 40px);
+    padding-bottom: 40px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     max-width: 1400px;
     width: calc(100% - 40px);
     padding-bottom: 40px;
@@ -939,7 +1306,12 @@
       font-size: 22px;
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 27px;
+      margin-bottom: 30px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 27px;
       margin-bottom: 30px;
     }
@@ -966,7 +1338,11 @@
       border-radius: 100%;
       background: #5BFF68;
 
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 900px) {
+        top: 24px;
+      }
+
+      @media only screen and (min-width: 1230px) {
         top: 24px;
       }
     }
@@ -975,7 +1351,11 @@
       font-size: 27px;
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
+      font-size: 49px;
+    }
+
+    @media only screen and (min-width: 1230px) {
       font-size: 49px;
     }
   }
@@ -993,7 +1373,12 @@
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 900px) {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  @media only screen and (min-width: 1230px) {
     margin-top: 80px;
     margin-bottom: 80px;
   }
