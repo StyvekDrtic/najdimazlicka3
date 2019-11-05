@@ -223,12 +223,16 @@
         text-align: center;
         margin: 0;
 
-        span {
+        .cislo {
           display: block;
           font-family: AvenirBlack;
           font-size: 44.12px;
           color: #000000;
           letter-spacing: 0;
+        }
+
+        span {
+          font-family: AvenirBlack;
         }
       }
 
@@ -530,34 +534,34 @@
 
     p {
       font-family: AvenirMedium;
-      font-size: 16px;
+      font-size: 18px;
       color: #000000;
       text-align: center;
-      line-height: 34px;
+      line-height: 38px;
       width: calc(100% - 40px);
       margin: 0 auto;
       margin-bottom: 25px;
 
       @media only screen and (min-width: 900px) {
         font-family: AvenirMedium;
-        font-size: 17px;
+        font-size: 25px;
         color: #000000;
         text-align: center;
-        line-height: 36px;
+        line-height: 40px;
       }
 
       @media only screen and (min-width: 1230px) {
         font-family: AvenirMedium;
-        font-size: 17px;
+        font-size: 30px;
         color: #000000;
         text-align: center;
-        line-height: 36px;
+        line-height: 55px;
       }
     }
 
     .jmeno {
       display: block;
-      font-family: AvenirBlack;
+      font-family: AvenirHeavy;
       font-size: 20px;
       color: #000000;
       text-align: center;
@@ -565,7 +569,7 @@
 
     .panicek {
       display: block;
-      font-family: AvenirMedium;
+      font-family: AvenirBook;
       font-size: 16px;
       color: #A2A2A2;
       text-align: center;
@@ -628,6 +632,7 @@
         padding: 0;
         margin: 0;
         margin-bottom: 40px;
+        vertical-align: top;
 
         img {
           background: #D8D8D8;
@@ -662,10 +667,12 @@
 
           @media only screen and (min-width: 900px) {
             margin-left: 40px;
+            margin-top: 0;
           }
 
           @media only screen and (min-width: 1230px) {
             margin-left: 0;
+            margin-top: 35px;
           }
         }
 
@@ -930,10 +937,12 @@
 
       @media only screen and (min-width: 900px) {
         width: calc((100% / 3) - 15px);
+        height: fit-content;
       }
 
       @media only screen and (min-width: 1230px) {
         width: 350px;
+        height: fit-content;
       }
     }
 

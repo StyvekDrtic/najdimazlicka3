@@ -1,3 +1,12 @@
+
+setTimeout(function(){
+  $(".oslovenychLidi").html(1000000);
+  $(".rokyZkusenosti").html(3);
+  $(".uspesnostHledani").html(88);
+  $(".kocicichChlupu").html(8632);
+}, 1);
+
+
 $(".otazka h3").click(function() {
   if ($(this).parent().hasClass("zavreno")) {
     $(this).parent().removeClass("zavreno");

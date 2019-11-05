@@ -3059,12 +3059,14 @@ footer {
         letter-spacing: 0;
         text-align: center;
         margin: 0; }
-        #statistiky ul li p span {
+        #statistiky ul li p .cislo {
           display: block;
           font-family: AvenirBlack;
           font-size: 44.12px;
           color: #000000;
           letter-spacing: 0; }
+        #statistiky ul li p span {
+          font-family: AvenirBlack; }
       @media only screen and (min-width: 900px) {
         #statistiky ul li:first-child {
           margin-left: 0; } }
@@ -3292,36 +3294,36 @@ footer {
     margin: 0 auto; }
     #citat .citatInner p {
       font-family: AvenirMedium;
-      font-size: 16px;
+      font-size: 18px;
       color: #000000;
       text-align: center;
-      line-height: 34px;
+      line-height: 38px;
       width: calc(100% - 40px);
       margin: 0 auto;
       margin-bottom: 25px; }
       @media only screen and (min-width: 900px) {
         #citat .citatInner p {
           font-family: AvenirMedium;
-          font-size: 17px;
+          font-size: 25px;
           color: #000000;
           text-align: center;
-          line-height: 36px; } }
+          line-height: 40px; } }
       @media only screen and (min-width: 1230px) {
         #citat .citatInner p {
           font-family: AvenirMedium;
-          font-size: 17px;
+          font-size: 30px;
           color: #000000;
           text-align: center;
-          line-height: 36px; } }
+          line-height: 55px; } }
     #citat .citatInner .jmeno {
       display: block;
-      font-family: AvenirBlack;
+      font-family: AvenirHeavy;
       font-size: 20px;
       color: #000000;
       text-align: center; }
     #citat .citatInner .panicek {
       display: block;
-      font-family: AvenirMedium;
+      font-family: AvenirBook;
       font-size: 16px;
       color: #A2A2A2;
       text-align: center;
@@ -3371,7 +3373,8 @@ footer {
         list-style: none;
         padding: 0;
         margin: 0;
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        vertical-align: top; }
         #reference .referenceInner ul li img {
           background: #D8D8D8;
           box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.1);
@@ -3398,10 +3401,12 @@ footer {
           margin-bottom: 30px; }
           @media only screen and (min-width: 900px) {
             #reference .referenceInner ul li:last-child {
-              margin-left: 40px; } }
+              margin-left: 40px;
+              margin-top: 0; } }
           @media only screen and (min-width: 1230px) {
             #reference .referenceInner ul li:last-child {
-              margin-left: 0; } }
+              margin-left: 0;
+              margin-top: 35px; } }
         @media only screen and (min-width: 900px) {
           #reference .referenceInner ul li:nth-child(1) {
             margin-top: 0;
@@ -3593,10 +3598,12 @@ footer {
             margin-right: 0; } }
       @media only screen and (min-width: 900px) {
         #cenoveBalicky ul li {
-          width: calc((100% / 3) - 15px); } }
+          width: calc((100% / 3) - 15px);
+          height: fit-content; } }
       @media only screen and (min-width: 1230px) {
         #cenoveBalicky ul li {
-          width: 350px; } }
+          width: 350px;
+          height: fit-content; } }
     @media only screen and (min-width: 900px) {
       #cenoveBalicky ul {
         display: flex;
