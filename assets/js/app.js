@@ -1,8 +1,64 @@
+// slider
+
+$('.carouselSlider').slick({
+  infinite: true,
+  variableWidth: true,
+  centerPadding: '70px',
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  centerMode: true,
+  arrows: false,
+});
+
+$('.fadeLeva a').click(function() {
+$('.carouselSlider').slick("slickPrev");
+});
+
+$('.fadePrava a').click(function() {
+$('.carouselSlider').slick("slickNext");
+});
+
+//jak to funguje 1
+
+$('.text1').click(function() {
+  if ($(this).hasClass("aktivniText") != true) {
+    $('.aktivniText').removeClass("aktivniText");
+    $(this).addClass("aktivniText");
+
+    $('.aktivniFoto').removeClass("aktivniFoto");
+    $(".fungujeFoto1").addClass("aktivniFoto");
+  }
+});
+
+$('.text2').click(function() {
+  if ($(this).hasClass("aktivniText") != true) {
+    $('.aktivniText').removeClass("aktivniText");
+    $(this).addClass("aktivniText");
+
+    $('.aktivniFoto').removeClass("aktivniFoto");
+    $(".fungujeFoto2").addClass("aktivniFoto");
+  }
+});
+
+$('.text3').click(function() {
+  if ($(this).hasClass("aktivniText") != true) {
+    $('.aktivniText').removeClass("aktivniText");
+    $(this).addClass("aktivniText");
+
+    $('.aktivniFoto').removeClass("aktivniFoto");
+    $(".fungujeFoto3").addClass("aktivniFoto");
+  }
+});
+
+
+// origo
+
 
 setTimeout(function(){
-  $(".oslovenychLidi").html(1000000);
+  $(".oslovenychLidi").html(500000);
   $(".rokyZkusenosti").html(3);
-  $(".uspesnostHledani").html(88);
+  $(".uspesnostHledani").html(74);
   $(".kocicichChlupu").html(8632);
 }, 1);
 
@@ -60,7 +116,7 @@ $('a[href*="#"]')
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 120
         }, 1000, function() {
           // Callback after animation
           // Must change focus!

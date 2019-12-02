@@ -70,12 +70,21 @@
 }
 
 header {
-  position: relative;
-  background: #fff;
-  height: 70px;
   width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
+  position: fixed;
+  height: 90px;
+  background: #fff;
+  top: 0;
+  z-index: 1000000000;
+
+  .headerInner {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 70px;
+    background: #fff;
+  }
 
   .logo {
     img {
@@ -95,7 +104,7 @@ header {
   nav {
     ul {
       position: absolute;
-      top: 35px;
+      top: 25px;
       right: 0;
       padding: 0;
       margin: 0;
@@ -109,7 +118,7 @@ header {
         a {
           vertical-align: middle;
           font-family: AvenirMedium;
-          font-size: 15px;
+          font-size: 16px;
           color: #151515;
           text-align: center;
         }
@@ -126,18 +135,22 @@ header {
       }
 
       .telefon {
+        background-image: linear-gradient(135deg, #F9F9F9 0%, #F3F3F3 100%);
+        border-radius: 10px;
+        padding: 10px 20px;
+
         img {
           height: 20px;
           vertical-align: middle;
+          margin-right: 22.5px;
         }
 
         a {
-          font-family: AvenirMedium;
+          font-family: AvenirBlack;
           font-size: 15px;
-          color: #151515;
-          letter-spacing: 1.76px;
+          color: #000000;
+          letter-spacing: 1px;
           text-align: center;
-          margin-left: 20px;
         }
       }
 
@@ -156,10 +169,5 @@ header {
     @media only screen and (min-width: 1000px) {
       display: none;
     }
-  }
-
-  @media only screen and (min-width: 1000px) {
-    height: 90px;
-    width: calc(100% - 40px);
   }
 }
