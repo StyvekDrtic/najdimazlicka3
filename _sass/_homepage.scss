@@ -1984,6 +1984,14 @@
             }
           }
         }
+
+        .jtfMobilniFoto {
+          display: none;
+
+          @media only screen and (max-width: 900px) {
+            display: none;
+          }
+        }
       }
 
       li {
@@ -2004,9 +2012,14 @@
 
         .jtfMobilniFoto {
           display: none;
+          width: calc(100% - 30px);
+          margin: 0 auto;
+          max-width: 400px;
+          margin-top: 20px;
+          padding-bottom: 15px;
 
           @media only screen and (max-width: 900px) {
-            //display: block;
+            display: block;
           }
         }
 
