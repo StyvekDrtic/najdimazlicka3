@@ -53,15 +53,17 @@ $(window).scroll(function() {
 
   if (pocitac == 0) {
 
-     var hT = $('.jakToFungujeMobile').offset().top,
-         hH = $('.jakToFungujeMobile').outerHeight(),
+     var hT = $('#jakToFunguje span').offset().top,
+         hH = $('#jakToFunguje span').outerHeight(),
          wH = $(window).height(),
          wS = $(this).scrollTop();
 
      if (wS > (hT+hH-wH)) {
        pocitac++;
-
-       $('.jakToFungujeMobile').slick("slickPrev");
+       
+       setTimeout(function () {
+         $('.jakToFungujeMobile').slick("slickPrev");
+       }, 500);
      }
   }
 });
