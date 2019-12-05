@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, p, span, a {
 }
 
 body {
-  padding-top: 95px;
+  padding-top: 75px;
   position: relative;
+
+  @media only screen and (min-width: 1000px) {
+    padding-top: 95px;
+  }
 }

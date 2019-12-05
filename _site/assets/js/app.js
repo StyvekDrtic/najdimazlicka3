@@ -5,7 +5,7 @@ $('.carouselSlider').slick({
   variableWidth: true,
   centerPadding: '70px',
   dots: true,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   centerMode: true,
   arrows: false,
@@ -18,6 +18,32 @@ $('.carouselSlider').slick("slickPrev");
 $('.fadePrava a').click(function() {
 $('.carouselSlider').slick("slickNext");
 });
+
+
+
+$(".jakToFungujeInner2 ul li h3").click(function() {
+  if ($(this).parent().hasClass("zavreno")) {
+    $(this).parent().removeClass("zavreno");
+  }
+
+  else {
+    $(this).parent().addClass("zavreno");
+  }
+});
+
+
+
+$('.jakToFungujeMobile').slick({
+  infinite: false,
+  variableWidth: true,
+  centerPadding: '70px',
+  dots: true,
+  autoplay: false,
+  centerMode: true,
+  arrows: false,
+});
+
+
 
 //jak to funguje 1
 
