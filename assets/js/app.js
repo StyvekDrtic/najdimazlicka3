@@ -44,6 +44,27 @@ $('.jakToFungujeMobile').slick({
 });
 
 
+var pocitac = 0;
+
+
+$('.jakToFungujeMobile').slick("slickNext");
+
+$(window).scroll(function() {
+
+  if (pocitac == 0) {
+
+     var hT = $('.jakToFungujeMobile').offset().top,
+         hH = $('.jakToFungujeMobile').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop();
+
+     if (wS > (hT+hH-wH)) {
+       pocitac++;
+
+       $('.jakToFungujeMobile').slick("slickPrev");
+     }
+  }
+});
 
 //jak to funguje 1
 
