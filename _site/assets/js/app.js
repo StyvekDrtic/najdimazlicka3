@@ -21,13 +21,15 @@ $('.carouselSlider').slick("slickNext");
 
 
 
-$(".jakToFungujeInner2 ul li h3").click(function() {
+$(".zobrazitVice").click(function() {
   if ($(this).parent().hasClass("zavreno")) {
     $(this).parent().removeClass("zavreno");
+    $(this).text('skrýt');
   }
 
   else {
     $(this).parent().addClass("zavreno");
+    $(this).text('Zobrazit více');
   }
 });
 
@@ -60,7 +62,7 @@ $(window).scroll(function() {
 
      if (wS > (hT+hH-wH)) {
        pocitac++;
-       
+
        setTimeout(function () {
          $('.jakToFungujeMobile').slick("slickPrev");
        }, 500);
