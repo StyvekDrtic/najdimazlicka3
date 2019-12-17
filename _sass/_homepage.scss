@@ -2286,7 +2286,8 @@
   }
 
   .blok1 {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
+    margin-right: 100px;
 
     .textBlock {
     }
@@ -2323,13 +2324,19 @@
       }
     }
 
+    @media only screen and (max-width: 1300px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     @media only screen and (max-width: 900px) {
       margin-bottom: 90px;
     }
   }
 
   .blok2 {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
+    margin-left: 100px;
 
     .textBlock {
       text-align: right;
@@ -2366,6 +2373,11 @@
       }
     }
 
+    @media only screen and (max-width: 1300px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     @media only screen and (max-width: 900px) {
       margin-bottom: 90px;
     }
@@ -2373,6 +2385,7 @@
 
   .blok3 {
     margin-bottom: 160px;
+    margin-right: 100px;
 
     .textBlockInner {
       margin-left: auto;
@@ -2402,6 +2415,11 @@
         margin-left: auto;
         margin-right: auto;
       }
+    }
+
+    @media only screen and (max-width: 1300px) {
+      margin-left: auto;
+      margin-right: auto;
     }
 
     @media only screen and (max-width: 900px) {
